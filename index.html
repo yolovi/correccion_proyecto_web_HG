@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estudio de Arquitectura Moderno</title>
+  <!-- CORRECCION:
+    Primero linkamos la fuente externa y luego nuestro css, sino puedes tener problemas a la hora de que se cargue correctamente (recuerda que el navegador lee de arriba hacia abajo)
+  -->
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -19,6 +22,9 @@
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
+    <!-- CORRECCION:
+      section al igual que article tiene que aportar contenido semántico, si solo quieres agrupar elementos utiliza div. 
+    -->
     <section class="hero">
       <h1>Diseñamos Espacios que Inspiran</h1>
       <p>Innovación, funcionalidad y belleza en cada proyecto.</p>

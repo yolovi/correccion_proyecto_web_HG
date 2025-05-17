@@ -1,3 +1,8 @@
+/* CORRECCION:
+    Esto está bastante bien, como apunte te diría que comentes el css
+    agrupando por funcionalidad, y que intentes usar clases atómicas.
+    También te recomiendo empezar por mobile first y hacer luego las media a partir de cierto tamaño minimo, es más fácil aplicar cambios de tamaño pequeño a mayor que de mayor a más pequeño.
+*/
 :root {
   --primary: #22223b;
   --accent: #4a4e69;
